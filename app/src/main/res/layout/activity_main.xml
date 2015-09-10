@@ -22,4 +22,14 @@
         android:layout_marginRight="66dp"
         android:layout_marginEnd="66dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text, difficult to ignore"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+
 </RelativeLayout>
